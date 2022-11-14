@@ -1,0 +1,130 @@
+/*Header Part*/
+nav {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.logo {
+    width: 267,5px;
+    
+
+}
+.menu {
+    justify-content: center;
+    margin-top: 1px;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    margin: 1rem;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+/*Main Part*/
+.intro img{
+    margin-top: 50px;
+    margin-left: 50%;
+}
+h1 {
+    text-align: center;
+    color: #00b39b;
+    font-weight: lighter;
+    font-family: Arial,sans-serif ;
+}
+.txt {
+    justify-content: center;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    color: gray;
+    line-height: 2rem;
+}
+h2 {
+    text-align: center;
+    color: #00b39b;
+    font-weight: lighter;
+    font-family: Arial,sans-serif ;
+}
+
+.txt2 {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    color: gray;
+    line-height: 2rem;
+}
+  
+.pays {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2% 9% 2% 9%;
+}
+
+.country div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2%;
+    color: #747474;
+}
+.country img {
+    border-radius: 2%;
+    height: 270px;
+    width: 250px;
+    margin: 10px;
+}
+.country div button {
+    color: #fff;
+    background-color: #3d83df;
+    border: #fff;
+    padding: 2% 2%;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 15%;
+}
+.country:hover {
+    box-shadow: 0px 0px 5px 0px;
+    cursor: pointer;
+}
+.final p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.final button {
+    color: #fff;
+    background-color: #3d83df;
+    border: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+   
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    margin-left: 40%;
+    margin bottom: 50%;
+}
+
+/*footer part*/
+hr {
+    color: rgb(252, 241, 241);
+}
+
+.fin {
+    text-align: center;
+    color: gray;
+    font-size: 10px;
+    font-family: Arial,sans-serif ;
+}
